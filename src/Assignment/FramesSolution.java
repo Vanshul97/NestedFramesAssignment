@@ -11,6 +11,8 @@ public class FramesSolution {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		// Pre Req-Replace location of chromedriver.exe file if running on your
+		// machine (Step15)
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Vanshul Suneja\\Chrome\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		WebElement l, m, r, b;
